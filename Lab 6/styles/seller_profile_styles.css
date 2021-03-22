@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+table{
+    text-align: left;
+}
+
+.inputFieldPadding {
+    margin: 20px;
+}
+
+tr {
+    padding: 15px;
+    margin: 15px;
+}
+
+.content{
+    flex: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    height: 300px;
+}
+
+.sidenav {
+    flex: 15%;
+    height: 300px;
+    padding: 20px;
+    background-color: black;
+    text-align: left;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.sidenav a:hover {
+    background-color: dodgerblue;
+}
+
+.profile-picture{
+    flex: 20%;
+    height: 300px;
+}
+
+.rounded-input-field {
+    border-radius: 15px;
+    border: transparent;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.rectangular-button {
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    elevation: 8deg;
+}
+.error{
+    color: red;
+}
