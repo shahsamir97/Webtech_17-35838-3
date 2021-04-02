@@ -1,0 +1,69 @@
+html {
+    overflow-y: scroll;
+}
+
+.error {
+    color: red;
+}
+
+.rounded-input-field {
+    border-radius: 15px;
+    border: transparent;
+    background-color: #eeeeee;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-field-margin {
+    margin: 10px;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    max-height: 780px;
+}
+
+.rounded-form {
+    padding: 30px;
+    margin: 20px auto auto;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+    font-weight: bold;
+    overflow: scroll;
+    background-image: url("../img/valorant.jpg");
+    background-size: cover;
+}
+
+.rectangular-button {
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    elevation: 8deg;
+}
+
+.drop-down-menu {
+    border: transparent;
+    background-color: #eeeeee;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.action-button-margin {
+    margin: 25px;
+}

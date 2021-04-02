@@ -1,0 +1,52 @@
+.flex-container{
+    display: flex;
+    height: fit-content;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+.content{
+    width: 700px;
+    height: fit-content;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.product-img img{
+    object-fit: fill;
+    height: 350px;
+    width: 400px;
+}
+
+.product-info{
+text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info{
+    text-align: left;
+    margin: 20px;
+
+}
+
+.underlined-word{
+    border-bottom: black solid 3px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+
+}
+
+hr{
+    padding: 0;
+}
