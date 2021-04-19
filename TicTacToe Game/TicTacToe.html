@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link id="style" rel="stylesheet" href="TicTacToe_style.css">
+    <script type="text/javascript" src="TicTacToe.js"></script>
+
+<body>
+    
+    <div class="loader hidden">
+    <img src="loader2.gif" alt="Loading..." />
+    </div>
+<script>
+
+</script>
+    
+  <h1>Play TicTacToe</h1>
+  <div class="header">
+      <h3 id="turn">Now Player :X</h3>
+      <button type="button" onClick="reloadPage()">RESTART</button>
+  </div>
+<div class="Game_Panel" id="panel">
+
+    <div id="row1">
+        <div id="1" onclick="showSign(this)"></div>
+        <div id="2" onclick="showSign(this)"></div>
+        <div id="3" onclick="showSign(this)"></div>
+    </div>
+    <div id="row2">
+        <div id="4" onclick="showSign(this)"></div>
+        <div id="5" onclick="showSign(this)"></div>
+        <div id="6" onclick="showSign(this)"></div>
+    </div>
+    <div id="row3">
+        <div id="7" onclick="showSign(this)"></div>
+        <div id="8" onclick="showSign(this)"></div>
+        <div id="9" onclick="showSign(this)"></div>
+    </div>
+</div>
+  <h2 id="winner"></h2>
+
+</body>
+</html>
